@@ -1,8 +1,8 @@
 function onload_script() {
     const fetchData = async () => {
         const data = await fetch(
-                'https://raw.githubusercontent.com/papad21297/gitdrive/main/unread_webtoon.txt'
-                // 'http://localhost:3000/output_source.txt'
+                // 'https://raw.githubusercontent.com/papad21297/gitdrive/main/unread_webtoon.txt'
+                'http://localhost:3000/unread_webtoon.txt'
         )
         return data.text()
     }
